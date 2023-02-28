@@ -96,12 +96,6 @@ const UserBanner = () => {
                   </button>
                 </>
               )}
-              <button
-                className="w-full px-3 truncate text-left leading-10 cursor-pointer rounded dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-800"
-                onClick={handleAboutBtnClick}
-              >
-                <span className="mr-1">🏂</span> {t("common.about")}
-              </button>
               {!userStore.isVisitorMode() && (
                 <button
                   className="w-full px-3 truncate text-left leading-10 cursor-pointer rounded dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-800"
